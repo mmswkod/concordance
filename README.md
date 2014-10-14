@@ -1,6 +1,6 @@
 #concordance
 
-A simple "REST" endpoint implemented using Spray and Akka to produce a concordance for an arbitrary text document uploaded.
+A simple "REST" endpoint implemented using Spray and Akka to produce a concordance for an arbitrary text document uploaded. The upload service is able to deal with large files taking advantage of cuncked uploads based on the HTTP 1.1 and Akka actors.
 
 
 ##Dependences
